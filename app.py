@@ -12,7 +12,7 @@ import streamlit.components.v1 as components
 ROOT = Path(__file__).resolve().parent
 sys.path.append(str(ROOT))
 
-from src.core.static_data import SABIAN_SYMBOLS  # noqa: E402
+from sabian_lookup import SABIAN_SYMBOLS  # noqa: E402
 
 ZODIAC_ORDER = [
     "Aries", "Taurus", "Gemini", "Cancer", "Leo", "Virgo",
